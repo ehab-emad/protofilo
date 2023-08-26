@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+header {
+    display: flex;
+    z-index: 999;
+size: 100%;
+    padding: 10px 100px;
+    align-items: center;
+    justify-content: space-between;
+    background-color:beige ;
+    position: fixed;
+    width: 100%;
+}
+.tit a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: blue;
+    font-size: 1.6em;
+    font-weight: 800;
+}
+.links a{
+    text-decoration: none;
+  margin-left:10px ;
+    color: blue;
+    font-size: 1.1em;
+    font-weight: 500;
+
+}
+section{
+    padding: 200px 100px;
+}
+.item{
+    display: block;
+    align-items: center;
+    width: 100%;
+    background-image: url(./imag/background.jpeg );
+    background-attachment: fixed;
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 100vh;
+
+
+}
+.item h1{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: white;
+}
+.item h1 span{
+    font-size: 2.3em;
+    font-weight: 900;
+    margin-bottom: 10px;
+    display: inline-flex;
+    color: blue;
+}
+.item h2{
+    font-size: 1.2em;
+    font-weight: 800;
+    color: white;
+}
+.item .btn{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-top: 26px;
+    transition: 0.7s ease;
+
+}
+.ccc{
+    
+    padding: 10px 20px;
+
+    margin-top: 26px;
+}
+.s{
+    margin-right: 5px;
+    color: white;
+    font-size: 1.5em;
+font-weight: 900;
+}
+.s:hover{
+    color: purple;
+}
+.item .btn:hover{
+    background-color: aqua;
+    transform: scale(1.1);
+}
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 2.1em;
+    color: blue;
+    font-weight: 700;
+}
+.con{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+}
+.card{
+    margin: 15px;
+    padding: 25px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 25%);
+    border-radius: 25px;
+    transition: 0.7s ease;
+}
+.card h2 {
+    font-size: 1.7em;
+    font-weight: 700;
+    color: blue;
+
+}
+.inf{
+    font-size: 1.1em;
+    font-weight: 200;
+
+}
+.card:hover{
+    background-color: beige;
+    transform: scale(1.1);
+}
+.tot{display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 2.1em;
+    font-weight: 700;
+    color: blue;
+}
+.icon i{
+    font-size: 2.2em;
+    margin-bottom: 5px;
+    color: blue;
+}
+
+.pro{
+    padding: 100px 100px;
+    background-color: black;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    flex-direction:row;
+
+}
+.divd{display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-top: 6px;
+}
+.text {
+    margin-top: 5px
+}
+.q{
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 900;
+    color: blue;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+   
+}
+.q:hover{
+color: purple;
+    
+}
+.ico{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 25%);
+transition: 0.7s ease;
+margin: 10px;
+}
+.ico:hover{
+    background-color: beige;
+    transform: scale(1.1);
+
+}
+.card:hover .imag{
+    opacity:0.9;
+}
+imag{width: 100%;}
+.tet{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 2.1em;
+    font-weight: 700;
+    color: blue;
+
+}
+.atr{
+    display: flex;
+    justify-content: center;
+
+}
+.ic p{margin: 5px;}
+.ic{
+    margin: 10px;
+    border: 10px;
+    width: 17em;
+    min-height: 9em;
+    border-color: black;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(1 1 1 / 25%);
+    letter-spacing: 1px;
+    transition: 0.7s ease;
+    text-align: center;
+}
+.ic:hover{
+    background-color: beige;
+    transform: scale(1.1);
+}
+.ic i{
+    font-size: 5em;
+    color: blue;
+}
+.foor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 200px;
+    background-color: black;
+}
+.foor h1{
+    font-size: 1.1em;
+    font-weight: 800;
+    color: white;
+
+}
+.foor h1 span{
+    color: blue;
+   text-transform:uppercase ;
+   margin-left: 5px;
+}
+.c a{
+    color: white;
+    font-size: 1.1em;
+    margin-left: 5px;
+
+}
+.c a:hover{
+    color: purple;
+}
